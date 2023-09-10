@@ -8,32 +8,38 @@
         {
           "room_type": "Executive Room, 1 Double Bed, Non-Smoking",
           "description": "Indulge in our Executive Room, offering 57 sq m of spacious luxury, featuring a comfortable double bed. Sleeps 3.",
-          "amenities": []
+          "amenities": [],
+          "rate"  : "7300 INR"
         },
         {
           "room_type": "Executive Suite, 1 Bedroom, Non-Smoking",
           "description": "Experience the epitome of luxury in our Executive Suite with 1 bedroom. This spacious 57 sq m suite features a king bed and a double sofa bed. Sleeps 3.",
-          "amenities": []
+          "amenities": [],
+          "rate"  : "8300 INR"
         },
         {
           "room_type": "Room, 1 King Bed, Non-Smoking",
           "description": "Relax in our 27 sq m room with a plush king-sized bed. Sleeps 3.",
-          "amenities": []
+          "amenities": [],
+          "rate"  : "6300 INR per night"
         },
         {
           "room_type": "Room, 2 Single Beds, Non-Smoking",
           "description": "Enjoy the comfort of our room with 2 single beds, perfect for a restful stay. Sleeps 3.",
-          "amenities": []
+          "amenities": [],
+          "rate"  : "6300 INR per night"
         },
         {
           "room_type": "Executive Room, 1 King Bed, Non-Smoking",
           "description": "Experience the luxury of our 27 sq m Executive Room with a king-sized bed. Sleeps 3.",
-          "amenities": []
+          "amenities": [],
+          "rate"  : "7300 INR per night"
         },
         {
           "room_type": "Executive Room, 2 Single Beds, Non-Smoking",
           "description": "Enjoy the comfort of our Executive Room with 2 single beds, perfect for a restful stay. Sleeps 3.",
-          "amenities": []
+          "amenities": [],
+          "rate"  : "10000 INR per night"
         }
       ],
       "common_amenities": [
