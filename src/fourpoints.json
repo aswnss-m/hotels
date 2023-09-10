@@ -1,146 +1,179 @@
 {
-    "hotel_name": "Four Points by Sheraton Kochi Infopark",
-    "hotel_location": "Infopark Kochi Phase 1 Campus, Infopark P.O, Kakkanad",
-    "available_rooms": [
-      {
-        "room_type": "King Bed, Guest Room",
-        "room_features": {
-          "size": "290sqft/26sqm",
-          "air_conditioned": true,
-          "smoking_policy": "Non-smoking",
-          "connecting_rooms_available": true,
-          "living_area": true
+  "hotel_name": "Four Points by Sheraton Kochi Infopark",
+  "hotel_location": "Infopark Kochi Phase 1 Campus, Infopark P.O, Kakkanad",
+  "available_rooms": [
+    {
+      "room_type": "King Bed, Guest Room",
+      "room_features": {
+        "size": "290sqft/26sqm",
+        "air_conditioned": true,
+        "smoking_policy": "Non-smoking",
+        "connecting_rooms_available": true,
+        "living_area": true
+      },
+      "bedding": {
+        "beds": "1 King Bed",
+        "maximum_occupancy": 3,
+        "rollaway_beds_permitted": 1,
+        "cribs_permitted": 1,
+        "duvet": true
+      },
+      "bath_and_bathroom_features": {
+        "shower_only": true,
+        "makeup_mirror": true,
+        "hair_dryer": true,
+        "robe": true,
+        "slippers": true
+      },
+      "furniture_and_furnishings": {
+        "sofa": true,
+        "oversized_chair": true,
+        "alarm_clock": true,
+        "safe_in_room": true,
+        "desk_with_electrical_outlet": true,
+        "iron_and_ironing_board": true
+      },
+      "food_and_beverages": {
+        "room_service": "24-hour",
+        "complimentary_bottled_water": true,
+        "coffee_tea_maker": true,
+        "instant_hot_water": true,
+        "minibar": true
+      },
+      "kitchen_features": {
+        "mini_fridge": true
+      },
+      "internet_and_phones": {
+        "phones": {
+          "speaker_phone": true,
+          "phone_lines": 2
         },
-        "bedding": {
-          "beds": "1 King Bed",
-          "maximum_occupancy": 3,
-          "rollaway_beds_permitted": 1,
-          "cribs_permitted": 1,
-          "duvet": true
-        },
-        "bath_and_bathroom_features": {
-          "shower_only": true,
-          "makeup_mirror": true,
-          "hair_dryer": true,
-          "robe": true,
-          "slippers": true
-        },
-        "furniture_and_furnishings": {
-          "sofa": true,
-          "oversized_chair": true,
-          "alarm_clock": true,
-          "safe_in_room": true,
-          "desk_with_electrical_outlet": true,
-          "iron_and_ironing_board": true
-        },
-        "food_and_beverages": {
-          "room_service": "24-hour",
-          "complimentary_bottled_water": true,
-          "coffee_tea_maker": true,
-          "instant_hot_water": true,
-          "minibar": true
-        },
-        "kitchen_features": {
-          "mini_fridge": true
-        },
-        "internet_and_phones": {
-          "phones": {
-            "speaker_phone": true,
-            "phone_lines": 2
-          },
-          "complimentary_high_speed_internet": true,
-          "complimentary_wireless_internet": true
-        },
-        "hospitality_services": {
-          "newspaper_delivered_to_room": "on_request"
-        },
-        "entertainment": {
-          "led_tv": "49in/124cm",
-          "premium_movie_channels": true,
-          "cable_satellite": true,
-          "international_cable_satellite": true,
-          "radio": true
-        },
-        "hotel_highlights": {
-          "built_in": 2018
-        },
-        "parking_and_transportation": {
-          "on_site_parking": {
-            "complimentary_parking": true,
-            "complimentary_valet_parking": true,
-            "onsite_parking_available": true
-          }
+        "complimentary_high_speed_internet": true,
+        "complimentary_wireless_internet": true
+      },
+      "hospitality_services": {
+        "newspaper_delivered_to_room": "on_request"
+      },
+      "entertainment": {
+        "led_tv": "49in/124cm",
+        "premium_movie_channels": true,
+        "cable_satellite": true,
+        "international_cable_satellite": true,
+        "radio": true
+      },
+      "hotel_highlights": {
+        "built_in": 2018
+      },
+      "parking_and_transportation": {
+        "on_site_parking": {
+          "complimentary_parking": true,
+          "complimentary_valet_parking": true,
+          "onsite_parking_available": true
         }
       },
-      {
-        "room_type": "Twin/Single Beds, Guest Room",
-        "room_features": {
-          "size": "290sqft/26sqm",
-          "air_conditioned": true,
-          "smoking_policy": "Non-smoking",
-          "connecting_rooms_available": true,
-          "living_area": true
-        },
-        "bedding": {
-          "beds": "2 Twin/Single Beds",
-          "maximum_occupancy": 3,
-          "rollaway_beds_permitted": 1,
-          "cribs_permitted": 1,
-          "duvet": true
-        },
-        "bath_and_bathroom_features": {
-          "shower_only": true,
-          "makeup_mirror": true,
-          "hair_dryer": true,
-          "robe": true,
-          "slippers": true
-        },
-        "furniture_and_furnishings": {
-          "oversized_chair": true,
-          "alarm_clock": true,
-          "safe_in_room": true,
-          "desk_with_electrical_outlet": true,
-          "iron_and_ironing_board": true
-        },
-        "food_and_beverages": {
-          "room_service": "24-hour",
-          "complimentary_bottled_water": true,
-          "coffee_tea_maker": true,
-          "instant_hot_water": true,
-          "minibar": "for_a_fee"
-        },
-        "kitchen_features": {
-          "mini_fridge": true
-        },
-        "internet_and_phones": {
-          "phones": {
-            "speaker_phone": true,
-            "phone_lines": 2
-          },
-          "complimentary_high_speed_internet": true,
-          "complimentary_wireless_internet": true
-        },
-        "hospitality_services": {
-          "newspaper_delivered_to_room": "on_request"
-        },
-        "entertainment": {
-          "led_tv": "49in/124cm",
-          "premium_movie_channels": true,
-          "cable_satellite": true,
-          "international_cable_satellite": true,
-          "radio": true
-        },
-        "hotel_highlights": {
-          "built_in": 2018
-        },
-        "parking_and_transportation": {
-          "on_site_parking": {
-            "complimentary_parking": true,
-            "complimentary_valet_parking": true,
-            "onsite_parking_available": true
-          }
+      "room_details": [
+        {
+          "availability": "2 Rooms Left",
+          "rate_details": [
+            {
+              "rate_name": "Member Flexible Rate",
+              "rate_value": "7,252 INR / night",
+              "select": "SELECT"
+            },
+            {
+              "rate_name": "Flexible Rate",
+              "rate_value": "7,400 INR / night",
+              "select": "SELECT"
+            }
+          ]
         }
-      }
-    ]
-  }
-  
+      ]
+    },
+    {
+      "room_type": "Twin/Single Beds, Guest Room",
+      "room_features": {
+        "size": "290sqft/26sqm",
+        "air_conditioned": true,
+        "smoking_policy": "Non-smoking",
+        "connecting_rooms_available": true,
+        "living_area": true
+      },
+      "bedding": {
+        "beds": "2 Twin/Single Beds",
+        "maximum_occupancy": 3,
+        "rollaway_beds_permitted": 1,
+        "cribs_permitted": 1,
+        "duvet": true
+      },
+      "bath_and_bathroom_features": {
+        "shower_only": true,
+        "makeup_mirror": true,
+        "hair_dryer": true,
+        "robe": true,
+        "slippers": true
+      },
+      "furniture_and_furnishings": {
+        "oversized_chair": true,
+        "alarm_clock": true,
+        "safe_in_room": true,
+        "desk_with_electrical_outlet": true,
+        "iron_and_ironing_board": true
+      },
+      "food_and_beverages": {
+        "room_service": "24-hour",
+        "complimentary_bottled_water": true,
+        "coffee_tea_maker": true,
+        "instant_hot_water": true,
+        "minibar": "for_a_fee"
+      },
+      "kitchen_features": {
+        "mini_fridge": true
+      },
+      "internet_and_phones": {
+        "phones": {
+          "speaker_phone": true,
+          "phone_lines": 2
+        },
+        "complimentary_high_speed_internet": true,
+        "complimentary_wireless_internet": true
+      },
+      "hospitality_services": {
+        "newspaper_delivered_to_room": "on_request"
+      },
+      "entertainment": {
+        "led_tv": "49in/124cm",
+        "premium_movie_channels": true,
+        "cable_satellite": true,
+        "international_cable_satellite": true,
+        "radio": true
+      },
+      "hotel_highlights": {
+        "built_in": 2018
+      },
+      "parking_and_transportation": {
+        "on_site_parking": {
+          "complimentary_parking": true,
+          "complimentary_valet_parking": true,
+          "onsite_parking_available": true
+        }
+      },
+      "room_details": [
+        {
+          "availability": "2 Rooms Left",
+          "rate_details": [
+            {
+              "rate_name": "Member Flexible Rate",
+              "rate_value": "7,252 INR / night",
+              "select": "SELECT"
+            },
+            {
+              "rate_name": "Flexible Rate",
+              "rate_value": "7,400 INR / night",
+              "select": "SELECT"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
