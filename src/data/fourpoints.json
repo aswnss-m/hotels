@@ -1,0 +1,122 @@
+{
+  "hotels": [
+    {
+      "hotel_name": "Four Points by Sheraton Kochi Infopark",
+      "hotel_location": "Infopark Kochi Phase 1 Campus, Infopark P.O, Kakkanad, Kanayannur, Kerala, 682042",
+      "hotel_description": "Welcome to the prestigious and contemporary Four Points by Sheraton Kochi Infopark, a luxurious haven nestled in the heart of the bustling business district of Infopark Kochi Phase 1 Campus. Our opulent establishment boasts a location that is second to none, providing unrivaled access to the vibrant pulse of Kakkanad.",
+      "room_types": [
+        {
+          "room_type": "Executive Room, 1 Double Bed, Non-Smoking",
+          "description": "Indulge in our Executive Room, offering 57 sq m of spacious luxury, featuring a comfortable double bed. Sleeps 3.",
+          "amenities": []
+        },
+        {
+          "room_type": "Executive Suite, 1 Bedroom, Non-Smoking",
+          "description": "Experience the epitome of luxury in our Executive Suite with 1 bedroom. This spacious 57 sq m suite features a king bed and a double sofa bed. Sleeps 3.",
+          "amenities": []
+        },
+        {
+          "room_type": "Room, 1 King Bed, Non-Smoking",
+          "description": "Relax in our 27 sq m room with a plush king-sized bed. Sleeps 3.",
+          "amenities": []
+        },
+        {
+          "room_type": "Room, 2 Single Beds, Non-Smoking",
+          "description": "Enjoy the comfort of our room with 2 single beds, perfect for a restful stay. Sleeps 3.",
+          "amenities": []
+        },
+        {
+          "room_type": "Executive Room, 1 King Bed, Non-Smoking",
+          "description": "Experience the luxury of our 27 sq m Executive Room with a king-sized bed. Sleeps 3.",
+          "amenities": []
+        },
+        {
+          "room_type": "Executive Room, 2 Single Beds, Non-Smoking",
+          "description": "Enjoy the comfort of our Executive Room with 2 single beds, perfect for a restful stay. Sleeps 3.",
+          "amenities": []
+        }
+      ],
+      "common_amenities": [
+        "Air conditioning (climate-controlled)",
+        "Premium bedding",
+        "Rollaway/extra beds (surcharge)",
+        "Dressing gowns",
+        "Free toiletries",
+        "Hairdryer",
+        "Towels",
+        "49-inch LED TV with premium channels",
+        "Coffee/tea maker",
+        "Free bottled water",
+        "Minibar",
+        "Connecting rooms available",
+        "Free newspapers (weekdays)",
+        "Iron/ironing board",
+        "Phone",
+        "Safe",
+        "Slippers",
+        "Soundproofing",
+        "Turndown service",
+        "Window screens"
+      ],
+      "hotel_rating": "5.0",
+      "hotel_highlights": [
+        "Luxury hotel with a full-service spa",
+        "24-hour business centre",
+        "Outdoor pool",
+        "Free WiFi",
+        "Restaurant",
+        "Air conditioning"
+      ],
+      "hotel_reviews": [
+        {
+          "rating": "8.6",
+          "comments": "Excellent",
+          "date": "15 Aug 2023"
+        },
+        {
+          "rating": "10",
+          "comments": "Excellent",
+          "date": "15 Jun 2023"
+        },
+        {
+          "rating": "2",
+          "comments": "Terrible",
+          "date": "30 May 2023"
+        },
+        {
+          "rating": "10",
+          "comments": "Excellent",
+          "date": "10 May 2023"
+        },
+        {
+          "rating": "10",
+          "comments": "Excellent",
+          "date": "16 Apr 2023"
+        }
+      ],
+      "hotel_amenities": [
+        "Pool",
+        "Spa",
+        "Parking included",
+        "Free WiFi",
+        "Restaurant",
+        "Air conditioning"
+      ],
+      "nearby_attractions": [
+        "Wonderla - 7 min drive",
+        "Hill Palace - 7 min drive",
+        "Chittilappilly Square - 8 min drive",
+        "Cochin (COK-Cochin Intl.) - 35 min drive"
+      ],
+      "languages_spoken": ["English", "Hindi"],
+      "cleaning_and_safety_practices": {
+        "Enhanced cleanliness measures": true,
+        "Social distancing": true,
+        "Safety measures": true,
+        "Hand sanitiser provided": true
+      },
+      "hotel_blog": "Welcome to the prestigious and contemporary Four Points by Sheraton Kochi Infopark, a luxurious haven nestled in the heart of the bustling business district of Infopark Kochi Phase 1 Campus. Our opulent establishment boasts a location that is second to none, providing unrivaled access to the vibrant pulse of Kakkanad.\n\nAt Four Points by Sheraton Kochi Infopark, we pride ourselves on offering an exceptional experience, from the moment you step into our modern lobby to the time you retire to your exquisitely appointed room. Our commitment to your comfort and satisfaction knows no bounds.\n\nOur regal King Bed Guest Rooms beckon you to indulge in a lavish retreat, where you'll find a spacious haven furnished with a sumptuous king-sized bed. After a day of exploring the dynamic city, you can refresh yourself in the pristine shower, basking in the invigorating sensation that only our state-of-the-art facilities can provide.\n\nYou'll enjoy the blissful embrace of air conditioning, ensuring your stay is as cool and refreshing as it is memorable. Rest assured, our hotel is entirely non-smoking, guaranteeing a breath of fresh air throughout your entire visit.\n\nStay connected with high-speed Wi-Fi, and quench your thirst with complimentary bottled water. Satisfy your caffeine cravings with our top-of-the-line coffee/tea maker, or indulge in a selection from the well-stocked minibar.\n\nSecurity is paramount at Four Points by Sheraton Kochi Infopark, with a personal safe in your room to safeguard your valuable belongings. A spacious work desk is at your disposal for productivity, and an LED TV with premium channels promises entertainment at your fingertips.\n\nOur commitment to your convenience extends to our 24-hour room service, ensuring that your every need is met no matter the hour.\n\nIn addition to our luxurious rooms, our hotel is replete with outstanding amenities and features. Built in 2018, we offer the epitome of modernity and style. Your vehicle is well taken care of with complimentary on-site parking and valet service.\n\nAs the evening descends, indulge in our delightful evening turndown service, a touch of luxury that awaits your return. Maintain your fitness regimen at our well-appointed fitness center, and stay productive with access to a full business center right on-site.\n\nFour Points by Sheraton Kochi Infopark isn't just a hotel; it's a promise of an exceptional experience, an oasis of comfort, and an embodiment of luxury in the heart of Kakkanad. We eagerly await the privilege of hosting your stay and exceeding your every expectation."
+    }
+  ]
+}
+

@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Define the path to the JSON file
-const jsonFilePath = path.join(__dirname, '..', 'src', 'fourpoints.json');
+const jsonFilePath = path.join(__dirname, '..', 'src/data', 'fourpoints.json');
 
 // Function to read the JSON data
 function readHotelData() {
