@@ -2,50 +2,144 @@
 <html>
 <head>
     <title>Hotel Details Form</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .form{
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+            width: min(95vw,500px);
+        }
+        input{
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
     <h1>Hotel Details Form</h1>
-    <form action="/submit-hotel-details" method="POST">
+    <form action="/" method="POST" class="form">
         <fieldset>
             <legend>Hotel Information</legend>
-            <label for="hotel_name">Hotel Name:</label>
-            <input type="text" id="hotel_name" name="hotel_name" required><br><br>
+            <div>
+                <label for="hotel_name">Hotel Name:</label>
+                <input type="text" id="hotel_name" name="hotel_name" required>
+            </div>
 
-            <label for="hotel_location">Hotel Location:</label>
-            <input type="text" id="hotel_location" name="hotel_location" required><br><br>
-
-            <label for="built_year">Year Built:</label>
-            <input type="number" id="built_year" name="built_year"><br><br>
+            <div>
+                <label for="hotel_address">Hotel Address:</label>
+                <input type="text" id="hotel_location" name="hotel_address" required>
+            </div>
+            <div>
+                <label for="hotel_phone">Hotel Phone:</label>
+                <input type="tel" id="hotel_phone" name="hotel_phone"  pattern="[0-9]{10}" placeholder="+xxyyyyyyyyyy" required>
+            </div>
+            <div>
+                <label for="hotel_email">Hotel Email:</label>
+                <input type="email" id="hotel_email" name="hotel_email" required>
+            </div>
+            <div>
+                <label for="hotel_website">Hotel Website:</label>
+                <input type="text" id="hotel_website" name="hotel_website" >
+            </div>
+            <div>
+                <label for="hotel_description">Hotel Description:</label>
+                <textarea id="hotel_description" name="hotel_description" rows="4" cols="50"></textarea>
+            </div>
         </fieldset>
 
         <fieldset>
             <legend>Room Details</legend>
-            <label for="room_type">Room Type:</label>
-            <input type="text" id="room_type" name="room_type"><br><br>
+            <div>
+                <label for="room_name" >Room Name:</label>
+                <input type="text" id="room_name" name="room_name" required>
+            </div>
 
-            <label for="room_size">Room Size:</label>
-            <input type="text" id="room_size" name="room_size"><br><br>
+            <div>
+                <label for="room_description">Room Description:</label>
+                <textarea rows="4" cols="50" id="room_description" name="room_description"></textarea>
 
-            <label for="occupancy">Maximum Occupancy:</label>
-            <input type="number" id="occupancy" name="occupancy"><br><br>
+            </div>
 
-            <label for="amenities">Amenities:</label><br>
-            <textarea id="amenities" name="amenities" rows="4" cols="50"></textarea><br><br>
+            <div>
+                <label for="room_capacity">Capacity:</label>
+                <input type="number" id="room_capacity" name="room_capacity" required>
+            </div>
 
-            <label for="other_details">Other Room Details:</label><br>
-            <textarea id="other_details" name="other_details" rows="4" cols="50"></textarea><br><br>
+            <div>
+                <label for="amenities">Amenities:</label>
+                <textarea id="amenities" name="amenities" rows="4" cols="50"></textarea>
+            </div>
+            <div>
+                <label for="rate_value">Rate :</label>  
+                <input type="text" id="rate_value" name="rate_value" required>
+            </div>
         </fieldset>
-
-        <fieldset>
-            <legend>Rate Details</legend>
-            <label for="rate_name">Rate Name:</label>
-            <input type="text" id="rate_name" name="rate_name"><br><br>
-
-            <label for="rate_value">Rate Value:</label>
-            <input type="text" id="rate_value" name="rate_value"><br><br>
-        </fieldset>
-
+        <input type="hidden" id="roomsData" name="roomsData">
+        <button type="button" value="Add Another Room" id="addRoomButton" onClick="addroom()">Click me</button>
         <input type="submit" value="Submit">
+        <input type="reset" value="Clear">
+
     </form>
+    <table id="roomTable">
+        <thead>
+            <tr>
+                <th>Room Name</th>
+                <th>Room Description</th>
+                <th>Capacity</th>
+                <th>Amenities</th>
+                <th>Rate</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Room details will be added here -->
+        </tbody>
+    </table>
+    <script>
+        let rooms = [];
+        function addroom() {
+            const name = document.getElementById("room_name").value;
+            const description = document.getElementById("room_description").value;
+            const capacity = document.getElementById("room_capacity").value;
+            const amenities = document.getElementById("amenities").value;
+            const rate = document.getElementById("rate_value").value;
+            rooms.push({name,description,capacity,amenities,rate})
+            console.log(rooms)
+            document.getElementById("roomsData").value = JSON.stringify(rooms);
+
+            // Create a new table row
+            const newRow = document.createElement("tr");
+
+            // Create table data cells for each room detail
+            const nameCell = document.createElement("td");
+            const descriptionCell = document.createElement("td");
+            const capacityCell = document.createElement("td");
+            const amenitiesCell = document.createElement("td");
+            const rateCell = document.createElement("td");
+
+            // Set the text content of each cell
+            nameCell.textContent = name;
+            descriptionCell.textContent = description;
+            capacityCell.textContent = capacity;
+            amenitiesCell.textContent = amenities;
+            rateCell.textContent = rate;
+
+            // Append cells to the row
+            newRow.appendChild(nameCell);
+            newRow.appendChild(descriptionCell);
+            newRow.appendChild(capacityCell);
+            newRow.appendChild(amenitiesCell);
+            newRow.appendChild(rateCell);
+
+            // Append the row to the table body
+            const tableBody = document.querySelector("#roomTable tbody");
+            tableBody.appendChild(newRow);
+
+        }
+    </script>
 </body>
 </html>
