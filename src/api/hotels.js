@@ -10,7 +10,7 @@ router.route("/").get((req,res)=>{
         console.log(err);
     })
 }) 
-router.route("/form").post((req,res)=>{
+router.route("/add").post((req,res)=>{
     console.log(req.body);
 })
 module.exports = router;

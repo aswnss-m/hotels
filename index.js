@@ -7,6 +7,7 @@ const path = require('path');
 
 // init
 const app = express();
+app.use(express.urlencoded({extended:true}));
 app.use(cors());
 const uri = process.env.ATLAS_URI;
 mongoose.connect(uri)
@@ -19,7 +20,7 @@ connection.once('open',()=>{
 // init routes
 hotelsRouter = require('./src/api/hotels')
 app.use('/api/hotels',hotelsRouter);
-app.get('/api/hotels/form',(req,res)=>{
+app.get('/form',(req,res)=>{
   res.sendFile(path.join(__dirname+'/src/pages/form.html'));
 })
 app.listen(3000, () => {
