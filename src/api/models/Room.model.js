@@ -8,12 +8,16 @@ const roomSchema = new mongoose.Schema({
     description : {
         type : String,
     },
-    price : {
+    rate : {
         type : mongoose.Types.Decimal128,
         required : true
     },
     capacity : {
         type : Number,
+        required : true
+    },
+    amenities : {
+        type : [String],
         required : true
     },
 })

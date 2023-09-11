@@ -26,7 +26,7 @@ const hotelSchema = new mongoose.Schema({
         required : true
     },
     rooms : {
-        type : mongoose.Schema.Types.ObjectId,
+        type : [mongoose.Schema.Types.ObjectId],
         ref : "Room"
     },
     ammenities:{
