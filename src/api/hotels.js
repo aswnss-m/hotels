@@ -5,12 +5,16 @@ const Hotel = require("./models/Hotel.model");
 const Room  = require("./models/Room.model");
 
 router.route("/").get((req,res)=>{
-    Hotel.find().then((hotels)=>{
-        res.json(hotels);
-    }).catch((err)=>{
-        console.log(err);
-    })
-}) 
+    Hotel.find()
+    .populate('rooms') // Populate the 'rooms' field with room data
+    .then(hotels => { 
+        res.json(hotels)
+    }
+    )
+    .catch(err => res.status(400).json('Error: ' + err));
+    
+})
+
 router.route("/add").post((req,res)=>{
     // console.log(req.body);
     const name = req.body.hotel_name;
