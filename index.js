@@ -4,6 +4,7 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 require('dotenv').config();
 const path = require('path');
+const Log = require('./src/api/models/Log.model');
 
 // init
 const app = express();
@@ -27,8 +28,11 @@ app.get("/details", (req, res) => {
     res.sendFile(path.join(__dirname+'/src/data/details.txt'));
 });
 app.post("/log",(res,req)=>{
-    console.log(req.body);
-    res.send("ok");
+    const data = req.body;
+    const newLog = new Log({data});
+    newLog.save()
+    .then(()=>res.json('Log added!'))
+    .catch(err=>res.status(400).json('Error: '+err));
 })
 app.listen(3000, () => {
     console.log('Example app listening on port 3000!');
