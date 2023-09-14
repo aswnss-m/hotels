@@ -23,6 +23,9 @@ app.use('/api/hotels',hotelsRouter);
 app.get('/form',(req,res)=>{
   res.sendFile(path.join(__dirname+'/src/pages/form.html'));
 })
+app.get("/details", (req, res) => {
+    res.sendFile(path.join(__dirname+'/src/data/details.txt'));
+});
 app.listen(3000, () => {
     console.log('Example app listening on port 3000!');
     }
