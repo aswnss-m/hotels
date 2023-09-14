@@ -2,8 +2,8 @@ import { RecursiveCharacterTextSplitter } from "langchain/text_splitter";
 import { createClient } from "@supabase/supabase-js";
 import { SupabaseVectorStore } from "langchain/vectorstores/supabase";
 import { OpenAIEmbeddings } from "langchain/embeddings/openai";
-import fs from "fs";
-import dotenv from "dotenv";
+const fs = require("fs");
+const dotenv = require("dotenv");
 dotenv.config();
 async function ingestData() {
     const text_hotel_data = fs.readFileSync("src/data/details.txt", "utf-8");
